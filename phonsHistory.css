@@ -1,5 +1,40 @@
-form {
+/* form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+  .container {
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    padding: 12px;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    justify-content: space-between;
+    background-color: #406882;
   }
+
+ .mune {
+  display: flex;
+  gap: 5rem;
+ }
+
+ a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+ }
+
+ button {
+  border: none;
+  
+  padding: 0.3rem;
+  width: 5rem;
+  background-color: #202426;
+  color: white;
+ }
